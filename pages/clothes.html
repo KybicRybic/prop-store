@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Одежда | Фабрика Реквизита</title>
+<link rel="stylesheet" href="../css/style.css">
+<link rel="icon" type="image/svg+xml" href="../images/Favicon.svg">
+<script src="../js/catalog-data.js" defer></script>
+<script src="../js/app.js" defer></script>
+</head>
+<body class="catalog-page">
+<header class="header">
+<div class="header-inner">
+<a class="brand" href="../index.html">
+<div class="logo"><img src="../images/logo-main-white.png" alt="Фабрика Реквизита"></div>
+<span class="brand-title">Фабрика Реквизита</span>
+</a>
+<nav class="menu">
+<a href="../index.html#catalog">Каталог</a>
+<a href="../index.html">Команда</a>
+<a href="../index.html#contacts">Контакты</a>
+</nav>
+</div>
+</header>
+
+<main class="catalog-shell" data-catalog-page="clothes">
+<section class="catalog-hero-panel">
+<p class="eyebrow">Каталог</p>
+<h1>Одежда</h1>
+<p class="catalog-hero-panel__description" data-category-intro></p>
+<div class="catalog-hero-panel__footer">
+<a class="text-link" href="../index.html">Вернуться к разделам</a>
+<span class="catalog-counter" data-category-count></span>
+</div>
+</section>
+
+<section class="catalog-products">
+<div class="catalog-products__header">
+<div>
+<p class="eyebrow">Товары</p>
+<h2>Карточки для наполнения</h2>
+</div>
+<p class="catalog-products__copy">Откройте любую заготовку, чтобы увидеть полноценную карточку товара и добавить ее в корзину или избранное.</p>
+</div>
+<div class="catalog-grid" data-product-grid></div>
+</section>
+</main>
+</body>
+</html>
